@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Application</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/application.css">
+</head>
+<body>
+	<div class="application_line"></div>
+	<div class="application">
+		<div class="symbol"></div>
+		<div class="container">
+			<div class="application_text">
+				<div class="application_text_heading">Оставить заявку</div>
+				<div class="application_text_paragraph">
+					<p>Нет времени искать по сайту?</p>
+					<p>Заполняй критерии поиска и получай акутальные объявления как только они появляются на Metrovka.</p>
+				</div>
+			</div>
+			<div class="application_form">
+				<form action="#" method="post">
+				
+				<div class="place">
+					<a href="#" class="place_item place_item-active">Район</a>
+					<a href="#" class="place_item">Метро</a>
+					
+				</div>
+					<select name="select-district" id="select-district">
+						<option selected value="kyiv">Голосеевский</option>
+						<option value="lviv">Соломенский</option>
+						<option value="kharkiv">Печерский</option>
+					</select>
+					<div class="select-room">
+				<p>Кол-во комнат</p>
+				<div class="select-room-wrapper">
+				<label>
+    				<input class="checkbox" type="checkbox" name="checkbox">
+    				<span class="checkbox-room checkbox-room-1">1</span>
+				</label>
+				<label>
+    				<input class="checkbox" type="checkbox" name="checkbox">
+    				<span class="checkbox-room checkbox-room-2">2</span>
+				</label>
+				<label>
+    				<input class="checkbox" type="checkbox" name="checkbox">
+    				<span class="checkbox-room checkbox-room-3">3</span>
+				</label>
+				<label>
+    				<input class="checkbox" type="checkbox" name="checkbox">
+    				<span class="checkbox-room checkbox-room-4">4</span>
+				</label>
+				<label>
+    				<input class="checkbox" type="checkbox" name="checkbox">
+    				<span class="checkbox-room checkbox-room-5">5+</span>
+				</label>
+				</div>
+				</div>
+				<input class="input_name" type="text" placeholder="Как вас зовут?">
+				<input class="input_email" type="email" placeholder="Email">
+				
+				<div class="block_submit">
+					<button type="submit" class="btn-submit">Оставить заявку</button>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.third-block{
+	@extend .block;
+	height: 444px;
+
+	.slider{
+		@extend .slider;
+		height: 279px;
+		.slider-information{
+		    .slider-information--price{
+				p{
+					width: 46%;
+				}
+
+				img{
+		    		margin-right: 13px; 
+				}
+			}
+
+			&:last-child{
+				.slider-information--price{
+					p{
+						width: 42%;
+					}
+
+					img{
+			    		margin-right: 13px; 
+					}
+				}
+			}
+		}
+	}
+}

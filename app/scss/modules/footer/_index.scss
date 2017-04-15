@@ -1,0 +1,86 @@
+$main-color: #30AE63;
+$font-color-header: #fff;
+
+select, input, button{
+	outline: none;
+}
+.footer{
+	padding: 20px;
+	margin: 0 auto;
+}
+.footer-wrapper{
+	display: flex;
+	padding: 3px 23px;
+}
+.footer-block-list{
+	width: 162px;
+	list-style: none;
+	a{
+		display: inline-block;
+		text-decoration: none;
+		color: #000;
+		margin-top: 18px;
+		font-size: 13px;
+		font-weight: normal;
+		line-height: 20px;
+	}
+}
+.footer-block-list-heading{
+	font-size: 16px;
+	font-weight: 600;
+}
+.metrovka, .partnership,.know-more{
+	width: 202px;
+	margin-right: 12px;
+}
+.contacts h3{
+	margin-top: 18px;
+    line-height: 20px;
+}
+.contacts-wrapper{
+	margin-top: 20px;
+	width: 162px;
+	font-size: 13px;
+	line-height: 26px;
+		a{
+			display: inline-block;
+			text-decoration: none;
+			color: #000;
+			font-size: 20px;
+			margin-right: 13px;
+			&:hover{
+				color: $main-color;
+			}
+		}
+		.footer-address p:nth-child(2){
+			font-size: 11px;
+		}
+		.footer-mail a{
+			font-size: 13px;
+		}
+		form{
+			margin-top: 20px;
+		button{
+			height: 40px;
+			width: 162px;
+			box-sizing: border-box;
+			background: $main-color;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			font-size: 14px;
+			font-weight: bold;
+			cursor: pointer;
+			&:hover{
+				background: #50DB88;
+			}
+		}
+	}	
+}
+.footer-logo{
+	margin-top: 50px;
+	text-align: center;
+	a{
+		display: inline-block;
+	}
+}

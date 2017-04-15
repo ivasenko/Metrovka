@@ -1,0 +1,41 @@
+body{
+	font-family: OpenSans;
+	color: #152935;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+hr{
+	width: 890px;
+}
+
+
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Semibold.ttf);
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}

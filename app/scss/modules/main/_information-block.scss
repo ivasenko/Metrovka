@@ -1,0 +1,29 @@
+.information-block{
+	margin-top: 40px;
+    text-align: center;
+
+
+	p{
+		font-size: 14px;
+		line-height: 20px;
+		max-width: 504px;
+    	margin: 0 auto;
+    	max-height: 40px;
+   	}
+
+	.navigation{
+	    margin: 18px auto;
+	    a{
+		    font-size: 14px;
+		    font-weight: normal;
+		    text-align: center;
+		    margin: 0 22px;
+		    padding-bottom: 7px;
+		    &:hover{
+		    font-weight: 600;
+			border-width: 156px;
+			border-bottom: 2px solid #30AE63;
+			}
+	    }
+	}
+}

@@ -1,0 +1,104 @@
+$main-font: 'Open Sans', sans-serif;
+$main-font-size: 14px;
+$main-color: #30AE63;
+$font-color-header: #fff;
+
+body{
+	font-family: $main-font;
+	width: 360px;
+	font-size: $main-font-size;
+}
+.container{
+	width: 320px;
+	margin: 0 auto;
+}
+.header{
+	background-image: url("../img/homepage.png");
+	background-repeat: no-repeat;
+	background-size: cover;	
+	color: $font-color-header;
+	padding: 23px 0 220px;
+	.header-top{
+		display: flex;
+		
+		.logo{
+			margin-right: 38px;
+			a{
+				display: inline-block;
+			}
+		}
+		.nav{
+			margin-top: 5px;
+			display: flex;
+			flex-direction: column;
+			
+			.nav-link{
+				display: inline-block;
+    			text-decoration: none;
+    			color: #fff;
+    			margin-right: 42px;
+    			padding-bottom: 10px;
+    			border-bottom: 2px solid transparent;
+    			line-height: 20px;
+    			box-sizing: border-box;
+    			margin-top: 12px;
+    			&:hover{
+    				
+    				border-bottom: 2px solid #fff;
+    			}
+    			.dots{
+    				font-size: 19px;
+    				margin-right: 10px;
+    				letter-spacing: 3px;
+    				font-weight: 800;
+    				display: inline-block;
+    			}
+			}	
+			.nav-link-first{
+    			margin-top: 0px;
+    		}
+		}
+		.nav-more{
+			display: flex;
+    		flex-direction: column;
+    		margin-left: -8px;
+    		.nav-more-link{
+    			margin-top: 7px;
+    		}
+		}
+		.header-login{
+			display: flex;
+    		flex-direction: column;
+    		margin-top: 36px;
+			.set-article-btn{
+				box-sizing: border-box;
+				width: 250px;
+				height: 40px;
+				margin-left: -7px;
+				background: rgba(48, 184, 99, 1);
+				display: inline-block;
+				text-decoration: none;
+				color: #fff;
+				border: none;
+				font-size: 15px;
+				cursor: pointer;
+				.fa-plus-circle{
+					font-size: 18px;
+					margin-right: 10px;
+				}
+			}
+			.log-in{
+				display: inline-block;
+				text-decoration: none;
+				color: #fff;
+				margin-top: 34px;
+				margin-left: -9px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+.menu-icon{
+	margin-top: 10px;
+	margin-left: -23px;
+}

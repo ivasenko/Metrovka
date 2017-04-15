@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Metrovka</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="scss/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="scss/style.css">
+</head>
+<body>
+<div id="background">
+
+	<!--HEADER-->
+<header class="header">
+<div class="header-block">
+	<div class="header-top">
+		<div class="logo"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
+		<nav class="nav">
+			<a href="#" class="nav-link">Аренда</a>
+			<a href="#" class="nav-link">Продажа</a>
+			<a href="#" class="nav-link">Посуточно</a>
+			<a href="#" class="nav-link nav-link-last"><span class="dots">...</span>Еще</a>
+		</nav>
+		<div class="header-login">
+			<button class="set-article-btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>Разместить объявление</button>
+			<a class="log-in">Войти</a>
+		</div>
+		<div class="menu-icon">
+		<a href="#"><img src="images/menu.png" alt="menu"></a>
+		</div>
+	</div>
+	<div class="header-heading">
+	<h1>Поиск недвижимости в Украине</h1></div>
+	<div class="header-selection">
+		<form class="form-search" action="#" method="post">
+		<div class="block-select-town">
+			<p>Выберите город</p>
+			<select name="select-town" id="select-town">
+				<option selected value="kyiv">Киев</option>
+				<option value="lviv">Львов</option>
+				<option value="kharkiv">Харьков</option>
+			</select>
+		</div>
+		<div class="select-room">
+		<p>Кол-во комнат</p>
+		<div class="select-room-wrapper">
+		<label>
+			<input class="checkbox" type="checkbox" name="checkbox">
+			<span class="checkbox-room checkbox-room-1">1</span>
+		</label>
+		<label>
+			<input class="checkbox" type="checkbox" name="checkbox">
+			<span class="checkbox-room checkbox-room_active checkbox-room-2">2</span>
+		</label>
+		<label>
+			<input class="checkbox" type="checkbox" name="checkbox">
+			<span class="checkbox-room checkbox-room-3">3</span>
+		</label>
+		<label>
+			<input class="checkbox" type="checkbox" name="checkbox">
+			<span class="checkbox-room checkbox-room-4">4</span>
+		</label>
+		<label>
+			<input class="checkbox" type="checkbox" name="checkbox">
+			<span class="checkbox-room checkbox-room-5">5+</span>
+		</label>
+		</div>
+		</div>
+		<div class="block-search">
+			<button type="submit" class="btn-search">Перейти к поиску</button>
+		</div>
+		</form>
+	</div>
+</header>
+
+<!--MAIN-->
+<main>
+<div class="first-block">
+	<div class="container">
+		<div class="first-block--search">
+			<div class="search__information">
+				<h2>Недвижимость возле метро</h2>
+				<nav class="navigation">
+					<a href="#">Квартиры</a>
+					<a href="#">Дома</a>
+					<a href="#">Офисы</a>
+				</nav>
+				<div class="select">
+					<select name="select" id="select-list">
+						<option selected value="Polytechnical"> Политехнический институт</option>
+						<option value="Shuliavska">Шулявская</option>
+						<option value="Kontraktovaya">Контрактовая площадь</option>
+					</select>
+				</div>
+				<div class="search__information--result">
+					<a href="#">Показать результаты поиска</a>
+				</div>
+			</div>
+			<div class="image">
+				<img src="images/metro.png" alt="subway">
+			</div> 
+		</div>
+	</div>
+</div>
+
+<div class="second-block">
+	<div class="container">
+		<h2>Лучшие предложения в Киеве</h2>
+		<div class="slider">
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_1.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>7 800 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>2 комн. • 30 кв.м.</p>
+				</div>					
+				<div class="slider-information--address">
+					<div class="round" style="background-color: #E71D32;"></div>
+					<p>Политехнический институт</p>
+				</div>
+			</div>
+
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_1.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>10 200 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>1 комн. • 30 кв.м.</p>
+				</div>					
+				<div class="slider-information--address">
+					<div class="round" style="background-color: #E71D32;"></div>
+					<p>Политехнический институт</p>
+				</div>
+			</div>
+
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_1.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>6 900 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>2 комн. • 30 кв.м.</p>
+				</div>
+				<div class="slider-information--address">
+					<div class="round" style="background-color: #E71D32;"></div>
+					<p>Политехнический институт</p>
+				</div>
+			</div>
+
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_1.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>9 000 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>2 комн. • 30 кв.м.</p>
+				</div>
+				<div class="slider-information--address">
+					<div class="round" style="background-color: #E71D32;"></div>
+					<p>Политехнический институт</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="page-blog">
+	<a href="#">Смотреть лучшие ценовые предложения</a>
+	</div>
+</div>
+
+<div class="third-block">
+	<div class="container">
+		<h2>Последние объявления в Киеве</h2>
+		<nav class="navigation">
+			<a href="#" >Квартиры</a>
+			<a href="#">Дома</a>
+			<a href="#">Офисы</a>
+		</nav>
+
+		<div class="slider">
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_2.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>11 800 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>2 комн. • 48 кв.м.</p>
+				</div>					
+				<div class="slider-information--address">
+					<div class="round" style="background-color: #E71D32;"></div>
+					<p>Политехнический институт</p>
+				</div>
+			</div>
+
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_3.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>15 000 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>3 комн. • 100 кв.м.</p>
+				</div>					
+				<div class="slider-information--address">
+					<div class="round" style="background-color: #E71D32;"></div>
+					<p>Шулявская</p>
+				</div>
+			</div>
+
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_4.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>11 800 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>1 комн. • 30 кв.м.</p>
+				</div>
+				<div class="slider-information--address">
+					<div class="round" style="background-color: #2573D8;"></div>
+					<p>Контрактовая площадь</p>
+				</div>
+			</div>
+
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+				<div class="background-image" style="background: url(images/home_1.jpg) center no-repeat;"></div>
+				<div class="slider-information--price">
+					<p>7 000 грн</p>
+					<img src="images/checkmark-glyph.png" alt="checkmark-glyph">
+				</div>
+				<div class="slider-information--secondary">
+					<p>2 комн. • 40 кв.м.</p>
+				</div>
+				<div class="slider-information--address">
+					<p>просп. Победы, 18А</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<hr>
+	<div  class="page-blog">
+		<a href="#">Смотреть самые свежие объявления</a>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="information-block">
+		<h2> Общайтесь в Telegram </h2>
+		<p>Не отвлекайтесь больше на формальности. Получайте моментальные уведомления о новых объявлениях, обращайтесь без ограничений.</p>
+		<nav class="navigation">
+			<a href="#">Поиск недвижимости</a>
+			<a href="#">Общение с клиентами</a>
+		</nav>
+	</div>
+</div>
+
+
+<div class="fourth-block">
+	<div class="fourth-block--first__phone">
+		<img src="images/phone.png" alt="phone">
+	</div>
+	<div class="fourth-block--second">
+		<div class="fourth-block--second__information">
+			<div class="fourth-block--second__information--title">
+				<img src="images/paper_plane.png" alt="paper_plane">
+				<h2>Telegram</h2>
+			</div>
+			<h2>Metrovka Bot</h2>
+			<ol>
+				<li>Собирайте аналитику по объектам</li>
+				<li>Получайте подсказки по эффективному продвижению объявлений</li>
+				<li>Общайтесь с клиентами через специальный канал телекоммуникации</li>
+			</ol>
+			<div class="search__information--result">
+				<a href="#">Присоединиться в Telegram</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="switch-information">
+	<a  href="#"><img src="images/switch_1.png" alt="switch"></a>
+	<a  href="#"><img src="images/switch_2.png" alt="switch"></a>
+</div>
+
+<div class="fifth-block">
+	<div class="container">
+		<h2>Блог Metrovka</h2>
+		<div class="fifth-block--text">
+		<p>Хитрости, приемы, советы, фото и видео - все о том как продать, купить, сдать в аренду или арендовать недвижимость.</p>
+		</div>
+		<div class="slider">
+			<div class="slider-information">
+			<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+			<div class="background-image" style="background: url(images/tablet.jpg) center no-repeat; background-size: cover;"></div>
+			<div class="slider-information--text">
+				<a href="#">ЛАЙФХАК</a>
+				<h4>Киевляне могут оплатить коммуналку через Facebook...</h4>
+			</div>
+			<div class="slider-information--secondary">
+				<p>Татьяна Малыняк • 5 мин чтения</p>
+			</div>					
+			</div>
+			
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+			<div class="background-image" style="background: url(images/people.jpg) center no-repeat; background-size: cover;"></div>
+			<div class="slider-information--text">
+				<a href="#">СОВЕТ METROVKA</a>
+				<h4>ТОП-5 самых дешевых квартир Киева</h2>
+			</div>
+			<div class="slider-information--secondary">
+				<p>Татьяна Малыняк • 4 мин чтения</p>
+			</div>					
+			</div>
+
+			<div class="slider-information">
+				<div class="slider-information__dots">
+					<a href="#">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+						<img src="images/dot.png" alt="dot">
+					</a>
+				</div>
+			<div class="background-image" style="background: url(images/home_5.jpg) center no-repeat; background-size: cover;"></div>
+			<div class="slider-information--text">
+				<a href="#">ТЕХНОЛОГИИ</a>
+				<h4>Смарт квартиры: цены, предложения и законность</h4>
+			</div>
+			<div class="slider-information--secondary">
+				<p>Татьяна Малыняк • 2 мин чтения</p>
+			</div>					
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="page-blog">
+	<a href="#">Перейти на страницу блога</a>
+	</div>
+</div>
+
+	<!--//=main.html-->
+</main>
+<!--FOOTER-->
+<footer class="footer">
+		<div class="container">
+			<div class="footer-wrapper">
+				<div class="metrovka">
+					
+					<ul class="footer-block-list">
+						<li><a href="#"><h3 class="footer-block-list-heading">Metrovka</h3></a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Пресса о нас</a></li>
+						<li><a href="#">Пользовательское соглашение</a></li>
+						<li><a href="#">Карта сайта</a></li>
+						<li><a href="#">Помощь</a></li>
+					</ul>
+				</div>
+				<div class="partnership">
+					
+					<ul class="footer-block-list">
+						<li><a href="#"><h3 class="footer-block-list-heading">Партнерство</h3></a></li>
+						<li><a href="#">Как разместить объявление</a></li>
+						<li><a href="#">Инструменты продвижения</a></li>
+						<li><a href="#">Правила заполнения объявлений</a></li>
+					</ul>
+				</div>
+				<div class="know-more">
+					
+					<ul class="footer-block-list">
+						<li><a href="#"><h3 class="footer-block-list-heading">Узнайте больше</h3></a></li>
+						<li><a href="#">Бонусная программа Bonus+</a></li>
+						<li><a href="#">Telegram Metrovka Bot</a></li>
+						<li><a href="#">Как работае поиск</a></li>
+						<li><a href="#">Как пользоваться избранным</a></li>
+					</ul>
+				</div>
+				<div class="contacts">
+					<h3 class="footer-block-list-heading">Контакты</h3>
+					<div class="contacts-wrapper">
+					<div class="social-links">
+						<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+</a>
+						<a href="#"><i class="fa fa-vk" aria-hidden="true"></i>
+</a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+</a>
+					</div>
+					<div class="footer-address">
+						<p>ул. Жилянская, 37</p>
+						<p>Киев, 01033</p>
+					</div>
+					<div class="footer-mail"><a href="mailto:info@metrovka.ua">info@metrovka.ua</a></div>
+				<form action="#" method="post">
+					<button type="submit">Оставить заявку</button>
+				</form>
+				</div>
+				</div>
+			</div>
+			<div class="footer-logo"><a href="#"><img src="images/logo_footer.png" alt="logo"></a></div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
